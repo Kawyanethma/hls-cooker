@@ -30,7 +30,7 @@ export function SplashApp(): JSX.Element {
         <div className="spinner"></div>
         <p className="status-text">{status}</p>
       </div>
-      <p className="copy-write-text">© {new Date().getFullYear()} Evoke International Limited</p>
+      <p className="copy-write-text">© {new Date().getFullYear()} Kawyanethma Walisundara</p>
     </div>
   )
 }

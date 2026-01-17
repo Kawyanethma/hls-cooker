@@ -26,7 +26,7 @@ function SplashApp() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "copy-write-text", children: [
       "© ",
       (/* @__PURE__ */ new Date()).getFullYear(),
-      " Evoke International Limited"
+      " Kawyanethma Walisundara"
     ] })
   ] });
 }
