@@ -1,4 +1,4 @@
-import { r as reactExports, R as React, j as jsxRuntimeExports, a as ReactDOM } from "./client-CGDFTTr8.js";
+import { r as reactExports, n as React, j as jsxRuntimeExports, m as clientExports, l as R } from "./theme-DWd5l5yA.js";
 function SplashApp() {
   const [status, setStatus] = reactExports.useState("Initializing...");
   const hasSentReady = React.useRef(false);
@@ -30,6 +30,6 @@ function SplashApp() {
     ] })
   ] });
 }
-ReactDOM.createRoot(document.getElementById("splash-root")).render(
-  /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(SplashApp, {}) })
+clientExports.createRoot(document.getElementById("splash-root")).render(
+  /* @__PURE__ */ jsxRuntimeExports.jsx(reactExports.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(R, { appearance: "dark", accentColor: "orange", children: /* @__PURE__ */ jsxRuntimeExports.jsx(SplashApp, {}) }) })
 );
